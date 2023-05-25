@@ -4,7 +4,7 @@
  * @return {number[]}
  */
 var filter = function(arr, fn) {
-  let newArr = [];
+  const newArr = [];
     for(let i = 0; i < arr.length; i++){
 
       if(fn(arr[i],i) >= 1 || fn(arr[i],i) != 0){
